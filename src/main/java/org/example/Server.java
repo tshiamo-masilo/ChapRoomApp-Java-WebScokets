@@ -107,4 +107,9 @@ public class Server implements  Runnable{
 
     }
 //main function here
+    public static void mani(String[] args){
+        Socket sc = new Socket();
+        Server sv = new Server();
+        sv.run();
+    }
 }

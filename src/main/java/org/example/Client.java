@@ -62,4 +62,8 @@ public class Client implements Runnable {
         }
     }
     //main function here
+    public static void main(String[] args){
+        Client cl = new Client();
+        cl.run();
+    }
 }
